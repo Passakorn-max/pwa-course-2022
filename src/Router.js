@@ -9,8 +9,8 @@ function Router() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={ <App/> } />
-                <Route path="/Profile" element={ <Profile/> } />
-                <Route path='/Minigame' element={ <Minigame/> } />
+                <Route path="/profile" element={ <Profile/> } />
+                <Route path='/minigame' element={ <Minigame/> } />
             </Routes>
         </BrowserRouter>
     )
