@@ -14,17 +14,17 @@ function FriendList(){
   return(
     <App>
       <div className="friend-list">
-        {
-          friends.map(x =>
-            <div className='fiend-list-item'>
-              <Avatar name={ x.user }/>
-              <div>{ x.displayName }</div>
-            </div>
-            )
-        }
+      {
+        friends.map(x =>
+          <div className='friend-list-item'>
+            <Avatar name={x.user}/>
+              {x.displayName}
+             </div>)
+      }
       </div>
     </App>
   )
+
 }
 
 export default FriendList;
