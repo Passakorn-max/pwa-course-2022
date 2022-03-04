@@ -24,7 +24,7 @@ function FriendList(){
       </div>
     </App>
   )
-
+   
 }
 
 export default FriendList;
