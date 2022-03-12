@@ -2,13 +2,14 @@
   position: absolute;
   top: 0px;
   bottom: 0px;
-  background-color: #331a12;
+  background-color: #14f038;
   z-index: 100;
   transition: background-color 2s width 2s left 2s;
 }
 
 .userlist.closed {
   width: 10px;
+  background-color: #ec8c31;
 }
 
 .userlist.open {
@@ -38,7 +39,7 @@
   .userlist {
     flex: 2;
     position: relative;
-    background-color: #06668c;
+    background-color: #14f038;
     width: unset;
   }
 
