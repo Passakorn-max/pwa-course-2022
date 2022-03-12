@@ -18,6 +18,6 @@ function Userlist () {
       <div className="close-button" onClick={onButtonClicked}>x</div>
     </div>
   )
-}
+} 
 
 export default Userlist;

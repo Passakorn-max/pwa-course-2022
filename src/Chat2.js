@@ -22,6 +22,6 @@ function changeSize() {
             <div className={"circle " + size}/>
         </div>
     )
-}
+} 
 
 export default Chat2;
